@@ -7,8 +7,15 @@
 import argparse
 
 from config import Configuration
+from fabulous import color
 
+title = ' a nice title '
 config = Configuration(ip="10.10.10.10", port=0)
+
+
+def show_banner():
+    banner = color.fg256('brown', title)
+    print(banner)
 
 
 def configure():
@@ -25,3 +32,4 @@ def configure():
 
 if __name__ == '__main__':
     configure()
+    show_banner()
