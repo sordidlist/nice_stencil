@@ -5,7 +5,10 @@
 ###############################################################
 
 import argparse
+import time
 
+from alive_progress import alive_bar
+import colors
 from config import Configuration
 from fabulous import color
 
@@ -14,7 +17,12 @@ config = Configuration(ip="10.10.10.10", port=0)
 
 
 def show_banner():
-    banner = color.fg256('brown', title)
+    banner = colors.fg_4be998(title)
+    fish_length = 400
+    with alive_bar(fish_length, bar='fish', monitor=False, stats=False, elapsed=False, spinner=None) as bar:
+        for i in range(fish_length):
+            time.sleep(0.004)
+            bar()
     print(banner)
 
 
