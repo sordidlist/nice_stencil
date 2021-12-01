@@ -11,10 +11,9 @@ class Configuration:
         self.ip = ip
         self.port = port
         self.validate()
-        print(self.to_string())
 
     def validate(self):
-        log.info("")
+        log.info(self.to_string())
 
     def to_string(self):
         config_string = "{}\n  Remote Host\t{}\n  Remote Port\t{}\n " \

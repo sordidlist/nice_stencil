@@ -8,22 +8,23 @@ import argparse
 import time
 
 from alive_progress import alive_bar
+
+import animate
 import colors
 from config import Configuration
 from fabulous import color
 
-title = ' a nice title '
-config = Configuration(ip="10.10.10.10", port=0)
+title = color.bold(colors.bg_d40558(" A NICE TITLE "))
+config = None
 
 
 def show_banner():
-    banner = colors.fg_4be998(title)
+    animate.flashing(title, end_state="on", repetitions=3, slowest_delay=1)
     fish_length = 400
     with alive_bar(fish_length, bar='fish', monitor=False, stats=False, elapsed=False, spinner=None) as bar:
         for i in range(fish_length):
             time.sleep(0.004)
             bar()
-    print(banner)
 
 
 def configure():
@@ -34,10 +35,9 @@ def configure():
     parser.add_argument("--ip", required=True, help="The remote host IP address")
     parser.add_argument("--port", required=True, help="The remote host FTP port")
     parsed_args = parser.parse_args()
-    config.ip = parsed_args.ip
-    config.port = parsed_args.port
+    config = Configuration(ip=parsed_args.ip, port=parsed_args.port)
 
 
 if __name__ == '__main__':
-    configure()
     show_banner()
+    configure()
