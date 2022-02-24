@@ -1,6 +1,5 @@
 from fabulous import color
 from pwn import log
-import sys
 
 
 class Configuration:

@@ -1,8 +1,10 @@
+import sys
 from random import uniform
 from time import sleep
-import sys
+
+from termcolor import colored
+
 import colors
-from termcolor import cprint, colored
 
 
 def typewrite(line, slowest_delay=0.3):

@@ -8,13 +8,13 @@ import argparse
 import time
 
 from alive_progress import alive_bar
+from fabulous import color
 
 import animate
 import colors
 from config import Configuration
-from fabulous import color
 
-title = color.bold(colors.bg_d40558(" A NICE TITLE "))
+title = color.bold(colors.bg_e7ef00(" A NICE TITLE "))
 config = None
 
 

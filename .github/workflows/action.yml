@@ -1,0 +1,12 @@
+# action.yml
+name: 'Try out a nice little python stencil'
+on: push
+jobs: 
+  test-pig:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get the dependencies
+        run: pip3 install -r requirements.txt
+      - name: Run the tests
+        run: python3 main.py --ip 10.10.11.12 --port 1234
