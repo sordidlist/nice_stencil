@@ -20,6 +20,7 @@ plumbum==1.7.1
 psutil==5.8.0
 pwn==1.0
 pwntools==4.7.0
+pybit==1.2.0
 pycparser==2.21
 pyelftools==0.27
 pygame==2.1.0
