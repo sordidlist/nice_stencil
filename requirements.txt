@@ -47,7 +47,7 @@ requests==2.27.1
 resolvelib==0.8.1
 rich==11.2.0
 ROPGadget==6.6
-rpyc==5.0.1
+rpyc==5.1.0
 sortedcontainers==2.4.0
 termcolor==1.1.0
 toml==0.10.2
