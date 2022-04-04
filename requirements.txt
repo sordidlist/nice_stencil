@@ -1,5 +1,5 @@
 about-time==3.1.1
-alive-progress==2.4.0
+alive-progress==2.4.1
 ansible==5.5.0
 ansible-core==2.12.4
 appdirs==1.4.4
