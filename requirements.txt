@@ -26,7 +26,7 @@ Mako==1.2.0
 MarkupSafe==2.1.1
 packaging==21.3
 paramiko==2.10.3
-platformdirs==2.5.1
+platformdirs==2.5.2
 plumbum==1.7.2
 psutil==5.9.0
 pwn==1.0
