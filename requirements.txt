@@ -14,10 +14,10 @@ colorama==0.4.4
 colored-traceback==0.3.0
 commonmark==0.9.1
 cprint==1.2.2
-cryptography==36.0.2
+cryptography==37.0.2
 distlib==0.3.4
 fabulous==0.4.0
-filelock==3.6.0
+filelock==3.7.1
 grapheme==0.6.0
 idna==3.3
 intervaltree==3.1.0
@@ -45,7 +45,7 @@ pywhat==5.1.0
 PyYAML==6.0
 requests==2.27.1
 resolvelib==0.8.1
-rich==12.2.0
+rich==12.4.4
 ROPGadget==6.7
 rpyc==5.1.0
 sortedcontainers==2.4.0
