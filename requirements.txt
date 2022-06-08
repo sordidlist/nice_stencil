@@ -17,7 +17,7 @@ cprint==1.2.2
 cryptography==37.0.2
 distlib==0.3.4
 fabulous==0.4.0
-filelock==3.6.0
+filelock==3.7.1
 grapheme==0.6.0
 idna==3.3
 intervaltree==3.1.0
