@@ -14,7 +14,7 @@ colorama==0.4.4
 colored-traceback==0.3.0
 commonmark==0.9.1
 cprint==1.2.2
-cryptography==37.0.2
+cryptography==37.0.3
 distlib==0.3.4
 fabulous==0.4.0
 filelock==3.7.1
