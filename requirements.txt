@@ -43,7 +43,7 @@ PySocks==1.7.1
 python-dateutil==2.8.2
 pywhat==5.1.0
 PyYAML==6.0
-requests==2.28.0
+requests==2.28.1
 resolvelib==0.8.1
 rich==12.4.4
 ROPGadget==6.8
