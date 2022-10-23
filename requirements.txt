@@ -1,4 +1,4 @@
-about-time==3.3.0
+about-time==4.1.0
 alive-progress==2.4.1
 ansible==6.0.0
 ansible-core==2.13.1
