@@ -45,7 +45,7 @@ pywhat==5.1.0
 PyYAML==6.0
 requests==2.28.1
 resolvelib==0.8.1
-rich==12.4.4
+rich==12.6.0
 ROPGadget==7.1
 rpyc==5.2.3
 sortedcontainers==2.4.0
