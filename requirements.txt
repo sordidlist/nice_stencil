@@ -19,7 +19,7 @@ distlib==0.3.6
 fabulous==0.4.0
 filelock==3.7.1
 grapheme==0.6.0
-idna==3.3
+idna==3.4
 intervaltree==3.1.0
 Jinja2==3.1.2
 Mako==1.2.3
