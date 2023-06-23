@@ -1,5 +1,5 @@
 alive-progress==2.4.1
-ansible==6.6.0
+ansible==8.1.0
 appdirs==1.4.4
 backports.entry-points-selectable==1.2.0
 bcrypt==4.0.1
