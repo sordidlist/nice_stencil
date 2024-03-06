@@ -41,7 +41,7 @@ pywhat==5.1.0
 PyYAML==6.0
 requests==2.31.0
 ROPGadget==7.1
-rpyc==5.3.0
+rpyc==6.0.0
 sortedcontainers==2.4.0
 termcolor==2.1.1
 toml==0.10.2
